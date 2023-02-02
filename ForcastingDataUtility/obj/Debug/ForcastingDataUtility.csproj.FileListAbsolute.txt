@@ -1,0 +1,15 @@
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\ForcastingDataUtility.exe.config
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\ForcastingDataUtility.exe
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\ForcastingDataUtility.pdb
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.Form1.resources
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.Properties.Resources.resources
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.csproj.GenerateResource.cache
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.csproj.CoreCompileInputs.cache
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.exe
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.pdb
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\Newtonsoft.Json.dll
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\System.Net.Http.Formatting.dll
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\Newtonsoft.Json.xml
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\System.Net.Http.Formatting.xml
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.csproj.CopyComplete
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.csproj.AssemblyReference.cache
