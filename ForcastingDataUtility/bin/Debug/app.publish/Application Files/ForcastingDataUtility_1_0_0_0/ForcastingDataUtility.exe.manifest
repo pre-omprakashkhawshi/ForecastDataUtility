@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ForcastingDataUtility.exe" version="1.0.0.0" publicKeyToken="b1fd981e8decde12" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="administrative_tools_15497.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ForcastingDataUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ForcastingDataUtility.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ForcastingDataUtility.exe" size="162296">
+      <assemblyIdentity name="ForcastingDataUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pWyIydMr8GFDsovaBploHmY9RBWuZsG9RNu97RzH2eY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="502272">
+      <assemblyIdentity name="Newtonsoft.Json" version="6.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Dt+sa+EXMt3ZnbZoIe5HQIwtwem+1o5e+ajhMMVlt5s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Net.Http.Formatting.dll" size="179680">
+      <assemblyIdentity name="System.Net.Http.Formatting" version="5.2.9.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AGZBMLljrOXxJDrkeGkm6oG8GBCG/HFJ1hI1Z8ME01s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="administrative_tools_15497.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PNiVtUC6Ofkhe0gRFTdHnt6DrUJG6Ljjz6BOo4zpoCI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ForcastingDataUtility.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PTLAP67\Omprakash Khawshi" issuerKeyHash="87c171495d7a82dba2f3e814d90fefa351e7c5e5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>acD0siH60dBfgilSZPzBnTH+pedeJkTRHM1gvPuAmVc=</DigestValue></Reference></SignedInfo><SignatureValue>X9rWBjjx7b9VU4IyZtkyrK3GGlxY52nusvKCOToouXmeUhHGXbKM9kMPm3Dw/YvpRtsLbGgyXYaD2c3jOJw6lcuPgfVVQ26isAHtLm/FyDWtRILbt47AMpHvYe0C/iuGPDHUCHoPfMz8TVW3sv/ih40aohoAxJ7oBYCKaNgZ1BM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vYCBDNZJCRVtnJiCH84DvXgJ5LPHNHk3zUyO/TfII2JCcoO1UZFgxaRGkXNiAKgdXTGDnUp1p4hiA4Pg5RllSNOyrM8bsMDAk3j1/Ui3Yd5c+B1Ui9sz2+1XsMYspGYPqDqLFNes3hk3LuGxe8IB4C5ErKU2SqaYQmoF99VfkpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="579980fbbc60cd1cd144265ee7a5fe319dc1fc645229825fd0d1fa21b2f4c069" Description="" Url=""><as:assemblyIdentity name="ForcastingDataUtility.exe" version="1.0.0.0" publicKeyToken="b1fd981e8decde12" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PTLAP67\Omprakash Khawshi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pw2f//gvD6tvu0nYiq4eaWQ0JPGhV9nB/uAqKyj4C0o=</DigestValue></Reference></SignedInfo><SignatureValue>c724nTtgAMOCOnjuP9+jzvS78TC+hNUuehheMm9YcHHbPJbv4aYmGWDknOuLY3ISe57sSsOL7W5TTIr2/K/WjLENgYSSK/U5Vip9sLOo3JAWShNlejEeWznk32Vxcl9BZrP44wpFxCp6NxQl08q2V8blZ2HI6Bp7NXukp3loDdI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vYCBDNZJCRVtnJiCH84DvXgJ5LPHNHk3zUyO/TfII2JCcoO1UZFgxaRGkXNiAKgdXTGDnUp1p4hiA4Pg5RllSNOyrM8bsMDAk3j1/Ui3Yd5c+B1Ui9sz2+1XsMYspGYPqDqLFNes3hk3LuGxe8IB4C5ErKU2SqaYQmoF99VfkpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQZKT6onPfpLVLvi1Z44GbmTANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIAUABUAEwAQQBQADYANwBcAE8AbQBwAHIAYQBrAGEAcwBoACAASwBoAGEAdwBzAGgAaTAeFw0yMjA5MDkxOTI0MDRaFw0yMzA5MTAwMTI0MDRaMD0xOzA5BgNVBAMeMgBQAFQATABBAFAANgA3AFwATwBtAHAAcgBhAGsAYQBzAGgAIABLAGgAYQB3AHMAaABpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9gIEM1kkJFW2cmIIfzgO9eAnks8c0eTfNTI79N8gjYkJyg7VRkWDFpEaRc2IAqB1dMYOdSnWniGIDg+DlGWVI07KszxuwwMCTePX9SLdh3lz4HVSL2zPb7VewxiykZg+oOosU16zeGTcu4bF7wgHgLkSspTZKpphCagX31V+SlQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGG347c6vJTZ3CKwOJ/9Uues6t6PcQdn76Q8oiTYGbfpuyZkHJeBIfvA8i6Ou3iA3O0jGBqRY+0H4AdjJ0JUqvwRfyG8UfjyUihN7wDOp0ZGzhyFwLTYK+vmUyGYcaGeKc7xBDZ+SlJ6POZbQyCvbFDa+/GJgQ8FSL89meNeQUqo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

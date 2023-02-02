@@ -12,4 +12,7 @@ C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\System.Net.Http.Formatt
 C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\Newtonsoft.Json.xml
 C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\System.Net.Http.Formatting.xml
 C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.csproj.CopyComplete
-C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.csproj.AssemblyReference.cache
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\ForcastingDataUtility.exe.manifest
+C:\ForcastingDataUtility\ForcastingDataUtility\bin\Debug\ForcastingDataUtility.application
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.exe.manifest
+C:\ForcastingDataUtility\ForcastingDataUtility\obj\Debug\ForcastingDataUtility.application
